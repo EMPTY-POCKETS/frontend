@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files \"index.html\" \"css/custom.css\" \"js/main.js\" ",
+    "bundle": "browserify ./js/main.js -o ./js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMPTY-POCKETS/frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMPTY-POCKETS/frontend/issues"
+  },
+  "homepage": "https://github.com/EMPTY-POCKETS/frontend#readme",
+  "dependencies": {
+    "@moltin/sdk": "^3.3.0",
+    "express": "^4.16.2"
+  }
+}
