@@ -24,4 +24,4 @@ const customer = {
     name: 'John Doe'
 };
 
-// Moltin.Cart().Checkout(customer, address);
+Moltin.Cart().Checkout(customer, address);
