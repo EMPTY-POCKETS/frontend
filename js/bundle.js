@@ -24094,7 +24094,7 @@ exports.createContext = Script.createContext = function (context) {
 const MoltinGateway = require('@moltin/sdk').gateway;
 
 const Moltin = MoltinGateway({
-    client_id: 'xmLi8JlbIHx1HdDOCl2c08Scpl7u4xcFOrNKxT4fmb'
+    client_id: 'Vky5wIWJJ4qPMR6j0km9J0lSkYX7OdPRwkMwqG6LhF'
 });
 
 const products = Moltin.Products.All().then(prod => {

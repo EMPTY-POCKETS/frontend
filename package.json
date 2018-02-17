@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "browser-sync start --server --files \"index.html\" \"css/custom.css\" \"js/main.js\" ",
+    "serve": "browser-sync start --server --files \"index.html\" \"css/custom.css\" \"js/main.js\" ",
     "bundle": "browserify ./js/main.js -o ./js/bundle.js"
   },
   "repository": {
