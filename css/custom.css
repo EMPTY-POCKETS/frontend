@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     letter-spacing: .1rem;    
 }
 
@@ -12,9 +12,13 @@ h4 {
 p {
     margin: .1rem;
 }
+.logo {
+    display: block;
+    margin: auto;
+}
 .text {
-    font-weight: bolder;
-    font-size: 2rem;
+    /* font-weight: bolder; */
+    font-size: 8pt;
     text-decoration: none;
     color: #000;
     text-transform: uppercase;
@@ -24,7 +28,8 @@ p {
 .bottom-link {
     font-family: sans-serif;
     text-decoration: none;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    font-size: 8pt;
     color: #000;
     text-transform: uppercase;
     padding-left: .2rem;
@@ -35,4 +40,7 @@ a:hover {
     text-decoration: none;
     color: #fff;
     background-color: #000;
+}
+.content {
+    padding: 48px;
 }
